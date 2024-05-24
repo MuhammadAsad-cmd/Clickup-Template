@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <>
       <div className="container mx-auto max-w-[1109px]">
-        <div className="flex h-full w-full flex-row gap-6 overflow-x-auto">
+        <div className="flex h-full w-full flex-row justify-center gap-6 overflow-x-auto">
           <div className="h-full">
             <Image
               width={124}
