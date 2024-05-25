@@ -44,7 +44,7 @@ const Signuppage = () => {
 
         <div className="login-page-new__mainlogin">
           <div className="login-page-new__main-bg"></div>
-          <div className="login-page-new__main-container flex items-end gap-5">
+          <div className="login-page-new__main-container mt-0 flex items-end gap-5 xl:mt-28">
             <div className="login-page-new__main-form">
               <div class="login-page-new__main-form-title-brand"></div>
               <h1 className="mb-5 text-center text-[32px] font-bold leading-[46px] text-[#292d34]">

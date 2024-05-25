@@ -3,7 +3,7 @@ import React from "react";
 const AnimatedCallout = () => {
   return (
     <>
-      <div className="CuHomeAnimatedCallout relative my-[134px] hidden xl:block">
+      <div className="CuHomeAnimatedCallout relative my-[134px] hidden lg:block">
         <div className="CuHomeAnimatedCallout_content">
           <div className="z-30 flex max-w-[1032px] flex-col items-center justify-center text-center">
             <h2 className="CuHomeAnimatedCallout_contentTitle mb-7 max-w-[550px] text-[41px]">

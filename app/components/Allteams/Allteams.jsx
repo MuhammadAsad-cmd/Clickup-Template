@@ -4,7 +4,7 @@ import ClickUp from "./ClickUp";
 const Allteams = () => {
   return (
     <>
-      <div className="TeamContainer container mx-auto mt-14 w-full max-w-[1160px] overflow-x-auto lg:mt-[134px]">
+      <div className="TeamContainer container mx-auto mt-14 w-full max-w-[1180px] overflow-x-auto lg:mt-[134px]">
         <div className="flex flex-col items-center justify-center text-ellipsis">
           <h2 className="Teams mb-5 text-center text-[41px] font-black ">
             All teams love ClickUp

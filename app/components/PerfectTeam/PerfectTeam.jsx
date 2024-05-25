@@ -22,7 +22,7 @@ const PerfectTeam = () => {
   };
   return (
     <>
-      <div className="container mx-auto mt-14 w-full max-w-[1160px] lg:mt-[100px] ">
+      <div className="container mx-auto mt-14 w-full max-w-[1080px] lg:mt-[100px] ">
         <div className="flex flex-col items-center justify-center text-center">
           <h2 className="FitTeam mb-5 text-[41px] font-black">
             Perfect fit for every team

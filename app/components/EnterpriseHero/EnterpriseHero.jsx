@@ -6,7 +6,7 @@ import Team from "../Collaboration/Team";
 
 const EnterpriseHero = () => {
   return (
-    <div className="CuHeroV3 pt-[150px]">
+    <div className="CuHeroV3 pt-[100px]">
       <div className="container mx-auto max-w-[800px]">
         <p className="mx-auto mb-5 flex h-[27px] w-full max-w-[129px] items-center justify-center rounded-full bg-[#F1F1F9] px-[10px] py-[6px] text-xs font-medium leading-5 text-[#514b81]">
           ClickUp Enterprise

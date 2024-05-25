@@ -22,8 +22,8 @@ const Header = () => {
 
   return (
     <>
-      <div className={`container mx-auto hidden max-w-[1160px] pt-5 lg:block`}>
-        <div className={`flex items-center  justify-between px-5 xl:px-10`}>
+      <div className={`container mx-auto hidden max-w-[1080px] pt-5 lg:block`}>
+        <div className={`xlgl:px-10 flex items-center justify-between px-5`}>
           <div className="flex items-center gap-[10px]">
             <Link href="/">
               <div className="flex h-[46px] w-[124px] cursor-pointer items-center justify-center rounded-[14px] border border-[#CECEEA] bg-[rgba(255,255,255)] ">
@@ -77,7 +77,7 @@ const Header = () => {
                 </div>
               </Link>
               <Link href="/pages/enterprise">
-                <div className="hidden h-9 items-center justify-center rounded-lg px-3 hover:bg-[#F1F1F9] xl:flex">
+                <div className="hidden h-9 items-center justify-center rounded-lg px-3 hover:bg-[#F1F1F9] lg:flex">
                   <p className="text-sm leading-6">Enterprise</p>
                 </div>
               </Link>

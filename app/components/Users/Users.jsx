@@ -5,13 +5,13 @@ import SubUsers from "./SubUsers";
 const Users = () => {
   return (
     <>
-      <div className="lg:mt-[134px container mx-auto mt-14 max-w-[1160px]">
+      <div className="container mx-auto mt-14 max-w-[1080px]">
         <div className="mb-11 hidden items-center justify-center gap-2 text-base font-bold leading-6 text-[#24223e] lg:flex">
           <p>
             95% of users increased their productivity after switching to
             ClickUp.
           </p>
-          <button className="flex h-[33px] items-center justify-center rounded-lg bg-[#f1f1f9] px-[10px] py-2 font-medium">
+          <button className="flex h-[33px] items-center justify-center rounded-lg bg-[#f1f1f9] px-[10px] font-medium">
             Join them
           </button>
         </div>
@@ -22,7 +22,7 @@ const Users = () => {
             unoptimized
             src="/images/users-love-us.png"
             alt="users"
-            className="w-full"
+            className=""
           />
         </div>
 
@@ -39,7 +39,7 @@ const Users = () => {
             </p>
           </div>
 
-          <div className="hidden grid-cols-1 gap-[30px] px-5 md:grid md:grid-cols-2 lg:px-10 xl:grid-cols-3">
+          <div className="hidden grid-cols-1 gap-[30px] px-5 md:grid md:grid-cols-2 lg:grid-cols-3 lg:px-10">
             <div className="">
               <Image
                 width={340}
@@ -71,7 +71,7 @@ const Users = () => {
                 />
               </div>
             </div>
-            <div className="Card3 hidden  w-full max-sm:block xl:block">
+            <div className="Card3 hidden  w-full max-sm:block lg:block">
               <div className="absolute bottom-7 left-8 right-8 top-7">
                 <h3 className="text-xl font-extrabold leading-7 text-[rgb(255,255,255)]">
                   Customize in a click

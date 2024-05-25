@@ -6,7 +6,7 @@ import FeatureList from "../FaetureList/FeatureList";
 const PricingHero2 = () => {
   return (
     <>
-      <div className="container mx-auto mb-[50px] mt-[70px] max-w-[1160px] p-[30px]">
+      <div className="container mx-auto mb-[50px] mt-[70px] max-w-[1080px] xl:max-w-[1160px]">
         <div className="flex flex-col rounded-[9px] border border-[#eaefef] bg-white lg:flex-row lg:items-center">
           <div className="py-9 pl-9">
             <div className="flex items-center gap-2">

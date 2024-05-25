@@ -35,9 +35,9 @@ const ContactSalesModal = () => {
     <>
       <div
         onClick={togglePopup}
-        className="flex min-h-[46px] cursor-pointer items-center justify-center rounded-[14px] border border-[#CECEEA] bg-[rgba(255,255,255)] px-[5px]"
+        className="flex h-[46px] cursor-pointer items-center justify-center rounded-[14px] border border-[#CECEEA] bg-[rgba(255,255,255)] px-[5px]"
       >
-        <div className="flex min-h-9 items-center justify-center rounded-lg px-3 hover:bg-[#F1F1F9]">
+        <div className="flex h-9 items-center justify-center rounded-lg px-3 hover:bg-[#F1F1F9]">
           <p>Contact Sales</p>
         </div>
       </div>

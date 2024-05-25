@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <div className="mt-14 border-y  border-[#ceceea]  lg:mt-[120px]">
-        <div className="container mx-auto flex  max-w-[1160px] flex-wrap items-center  sm:justify-center ">
+        <div className="container mx-auto flex  max-w-[1080px] flex-wrap items-center  sm:justify-center ">
           <div className="flex items-center gap-[10px] py-[17px] pl-5">
             <a className="" href="/">
               <svg
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#f8f8fc]">
-        <div className="container mx-auto max-w-[1160px] ">
+        <div className="container mx-auto max-w-[1080px] ">
           <div className="grid grid-cols-2 gap-y-8 px-5 py-9 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 lg:px-14">
             <div className="flex flex-col">
               <h1 className="pl-[10px] text-[13px] font-black text-[#0c1947]">

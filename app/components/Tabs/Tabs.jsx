@@ -38,7 +38,7 @@ const Tabs = () => {
         freeMode={true}
         watchSlidesProgress={true}
         modules={[FreeMode, Navigation, Thumbs]}
-        className="container mx-auto  max-w-[1160px] px-3 lg:px-[10px]"
+        className="container mx-auto max-w-[1080px] px-3 lg:px-[10px]"
         breakpoints={{
           640: {
             slidesPerView: 3,

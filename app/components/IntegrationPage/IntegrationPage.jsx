@@ -21,7 +21,7 @@ const IntegrationPage = ({ handleSearchChange }) => {
         <div
           className={`${isDropdownOpen || isSolutionOpen || isLearnOpen ? " border-b bg-white text-black" : ""}`}
         >
-          <div className="container mx-auto hidden max-w-[1200px] lg:block">
+          <div className="container mx-auto hidden max-w-[1160px] lg:block">
             <div className="flex h-[100px] items-center justify-between px-5">
               <div className="flex items-center">
                 <div className="mr-9">

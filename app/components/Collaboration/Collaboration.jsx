@@ -6,7 +6,7 @@ import CollabCard from "./CollabCard";
 const Collaboration = () => {
   return (
     <>
-      <div className="container mx-auto mt-14 max-w-[1160px] lg:mt-[200px]">
+      <div className="container mx-auto mt-14 max-w-[1080px] lg:mt-[200px]">
         <div className="flex flex-col items-center  justify-center px-10 text-center">
           <h2 className=" LeadHeight mb-[18px] max-w-[450px] text-[41px] font-black">
             Save time and get more done

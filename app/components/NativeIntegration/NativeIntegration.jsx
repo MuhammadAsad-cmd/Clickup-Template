@@ -12,7 +12,7 @@ const NativeIntegration = ({ searchTerm }) => {
 
   return (
     <>
-      <div className="container mx-auto mt-[70px] max-w-[1600px] text-[#292d34]">
+      <div className="container mx-auto mt-[70px] max-w-[1080px] text-[#292d34] xl:max-w-[1600px]">
         <h2 className="text-center text-[40px] font-extrabold leading-[50px]">
           Native integrations
         </h2>
@@ -26,7 +26,7 @@ const NativeIntegration = ({ searchTerm }) => {
               key={data.id}
               className="group flex h-full flex-col items-center justify-between rounded-[5px] border border-[#e3e3e3] sm:flex-row lg:h-[208px]"
             >
-              <div className="w-[52%] cursor-pointer pt-5">
+              <div className="w-[50%] cursor-pointer pt-5">
                 <Image
                   width={264}
                   height={189}
@@ -36,7 +36,7 @@ const NativeIntegration = ({ searchTerm }) => {
                   className="mx-auto object-contain duration-500 ease-in-out group-hover:scale-110 md:w-[70%]"
                 />
               </div>
-              <div className="px-5 py-5 pr-10 sm:w-[45%] md:px-0">
+              <div className="px-5 py-5 pr-10 sm:w-[50%] md:px-0">
                 <p className="mb-[18px] mt-[5px] text-base font-medium text-black">
                   {data.heading}
                 </p>

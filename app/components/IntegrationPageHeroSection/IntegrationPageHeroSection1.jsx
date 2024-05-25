@@ -5,7 +5,7 @@ import { IoMdSearch } from "react-icons/io";
 const IntegrationPageHeroSection1 = ({ handleSearchChange, searchTerm }) => {
   return (
     <>
-      <div className="container relative mx-auto max-w-[1200px]">
+      <div className="container relative mx-auto max-w-[1080px] xl:max-w-[1160px]">
         <div className="px-1 pb-[290px] lg:px-[10px] lg:pb-[400px]">
           <h1 className="mx-auto mt-[50px] flex max-w-[660px] items-center justify-center text-center text-[40px] font-black leading-[50px] text-white lg:text-[50px] lg:leading-[69px]">
             Connect over 1,000+ tools to ClickUp for free.

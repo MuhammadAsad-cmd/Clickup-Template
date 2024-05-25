@@ -4,7 +4,7 @@ import React from "react";
 const EnterpriseSupporting = () => {
   return (
     <>
-      <div className="container mx-auto mt-[150px] max-w-[1160px] text-[#24223E]">
+      <div className="container mx-auto mt-[150px] max-w-[1080px] text-[#24223E] xl:max-w-[1160px]">
         <div className="mb-[60px] flex flex-col items-center justify-center">
           <h2 className="max-w-[740px] px-5 text-4xl font-black leading-[51px] md:text-[41px]">
             Supporting your team around the clock and across all fronts
@@ -17,8 +17,8 @@ const EnterpriseSupporting = () => {
         </div>
       </div>
 
-      <div className="container mx-auto max-w-[1160px] px-5 text-[#24223E] md:px-10">
-        <div className="grid h-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto max-w-[1080px] text-[#24223E]  xl:max-w-[1160px]">
+        <div className="grid h-full grid-cols-1 gap-5 px-5 sm:grid-cols-2 md:px-10 lg:grid-cols-3">
           <div className="h-[436px] rounded-[14px] border border-[#ceceea] bg-white sm:h-full">
             <Image
               width={344}
@@ -445,7 +445,6 @@ const EnterpriseSupporting = () => {
             unoptimized
             src="/images/users-love-us.png"
             alt="users"
-            className="w-full"
           />
         </div>
       </div>

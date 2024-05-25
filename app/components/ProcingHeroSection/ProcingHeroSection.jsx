@@ -21,7 +21,7 @@ const ProcingHeroSection = () => {
         </h2>
       </div>
 
-      <div className="container mx-auto mt-20 w-full max-w-[1160px] overflow-x-auto px-5 lg:px-10">
+      <div className="container mx-auto mt-20 w-full max-w-[1080px] overflow-x-auto">
         <div className="flex flex-col items-center justify-between gap-5 lg:flex-row">
           <div className="flex items-center justify-center gap-[7px]">
             <Image
@@ -36,12 +36,12 @@ const ProcingHeroSection = () => {
             </button>
             <ProcingHeroReviewsLogo />
           </div>
-          <div className="BorderRounded flex min-h-[40px] w-[143px] items-center justify-center gap-1 border border-[#CECEEA] bg-[rgba(255,255,255)] p-1">
+          <div className="BorderRounded flex h-[40px] w-[143px] items-center justify-center gap-1 rounded-2xl border border-[#CECEEA] bg-[rgba(255,255,255)] px-1">
             {["Yearly", "Monthly"].map((tab) => (
               <div
                 key={tab}
                 onClick={() => handleTabClick(tab)}
-                className={` ${activeTab === tab ? "bg-[#f1f1f9] text-[#24223e]" : "text-[#7f76b3]"} flex h-[30px] w-[54%] cursor-pointer items-center justify-center rounded-lg text-sm font-medium`}
+                className={` ${activeTab === tab ? "bg-[#f1f1f9] text-[#24223e]" : "text-[#7f76b3]"} flex h-[30px] w-full cursor-pointer items-center justify-center rounded-lg text-sm font-medium`}
               >
                 <p>{tab}</p>
               </div>

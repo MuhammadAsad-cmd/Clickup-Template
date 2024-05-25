@@ -26,7 +26,7 @@ const EnterpriseSideabar = () => {
   };
   return (
     <>
-      <div className="container relative mx-auto mt-[150px] max-w-[1170px] px-5 text-[#24223E] lg:px-0">
+      <div className="container relative mx-auto mt-[150px] max-w-[1080px] px-5 text-[#24223E] lg:px-0 xl:max-w-[1170px]">
         <div className="mt-[150px] flex">
           <div>
             <div id="solution" ref={solutionRef}>

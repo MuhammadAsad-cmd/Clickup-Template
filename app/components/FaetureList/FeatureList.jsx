@@ -29,8 +29,8 @@ const FeatureList = () => {
 
       {menuOpen && (
         <>
-          <div className="container mx-auto mb-[50px] mt-[60px] max-w-[1160px] p-[30px]">
-            <div className="relative overflow-x-auto rounded-lg border border-[#cfcfeb] ">
+          <div className="container mx-auto mb-[50px] mt-[60px] max-w-[1080px] xl:max-w-[1160px]">
+            <div className="relative overflow-x-auto rounded-lg border border-[#cfcfeb]">
               <table className="w-full text-center">
                 <thead className="bg-white text-[#24223e]">
                   <tr>

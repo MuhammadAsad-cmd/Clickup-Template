@@ -4,8 +4,8 @@ import React from "react";
 const YearlyPricing = () => {
   return (
     <>
-      <div className="Pricing_pricingCard relative mt-3 hidden items-end justify-center lg:flex">
-        <div className="Pricing_pricingCard1 h-[700px] w-[278px] bg-white px-[30px] py-[25px]">
+      <div className="Pricing_pricingCard relative mt-3 hidden max-w-[1080px] grid-cols-4 items-end justify-center lg:grid">
+        <div className="Pricing_pricingCard1 h-[700px] bg-white px-[30px] py-[25px]">
           <p className="pricingCard1H1 text-xl font-black capitalize leading-7">
             free forever
           </p>
@@ -194,7 +194,7 @@ const YearlyPricing = () => {
             </div>
           </div>
         </div>
-        <div className="Pricing_pricingCard2 h-[700px] w-[278px] bg-white px-[30px] py-[25px]">
+        <div className="Pricing_pricingCard2 h-[700px] bg-white px-[30px] py-[25px]">
           <p className="pricingCardh2 text-xl font-black capitalize leading-7">
             Unlimited
           </p>
@@ -403,7 +403,7 @@ const YearlyPricing = () => {
             </div>
           </div>
         </div>
-        <div className="Pricing_pricingCard3 w-[278px] rounded-t-[12px]  bg-white">
+        <div className="Pricing_pricingCard3 rounded-t-[12px]  bg-white">
           <div className="PricingV3TierCard mx-auto mt-1 flex h-[31px] w-full max-w-[270px] items-center justify-center gap-1 rounded-t-[9px] text-xs uppercase text-white">
             <svg
               width="14"
@@ -610,7 +610,7 @@ const YearlyPricing = () => {
             </div>
           </div>
         </div>
-        <div className="Pricing_pricingCard4 h-[700px]  w-[278px] bg-white  px-[30px] py-[25px]">
+        <div className="Pricing_pricingCard4 h-[700px]  bg-white  px-[30px] py-[25px]">
           <p className="pricingCardh4 text-xl font-black capitalize leading-7">
             Enterprise
           </p>

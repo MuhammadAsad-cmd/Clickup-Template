@@ -3,7 +3,7 @@ import React from "react";
 const HeroSection = () => {
   return (
     <>
-      <div className="container mx-auto mb-20 mt-10 max-w-[1160px] xl:mt-28">
+      <div className="container mx-auto mb-20 mt-10 max-w-[1080px] xl:mt-28">
         <div className="flex flex-col items-center justify-center px-10">
           <div className="mb-5 flex max-w-[226px] items-center justify-center rounded-full bg-[rgb(36,34,62)] px-[10px] py-[5px] text-xs font-medium text-[rgb(255,255,255)]">
             Discover the all-new ClickUp 3.0 →

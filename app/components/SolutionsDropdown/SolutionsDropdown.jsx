@@ -28,7 +28,7 @@ const SolutionsDropdown = () => {
     <>
       <div
         id="dropdownHover"
-        className={`container fixed inset-x-0 left-5 right-0 top-20 z-40 mx-auto  w-full max-w-[1160px] rounded-2xl border border-[rgba(206,206,234)] bg-white`}
+        className={`container fixed inset-x-0 left-5 right-0 top-20 z-40 mx-auto  w-full max-w-[1080px] rounded-2xl border border-[rgba(206,206,234)] bg-white xl:max-w-[1160px]`}
       >
         <div className="flex p-5">
           <div className="min-w-[215px]">

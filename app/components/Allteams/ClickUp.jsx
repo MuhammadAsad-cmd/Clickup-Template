@@ -4,7 +4,7 @@ import Image from "next/image";
 const ClickUp = () => {
   return (
     <>
-      <div className="container mx-auto mt-10 max-w-[1160px]">
+      <div className="container mx-auto mt-10 max-w-[1080px]">
         <div className="flex h-full w-full flex-row justify-center gap-5 overflow-x-auto">
           <div className="CuHomeTestTeamsLoveClickUp min-w-[280px] overflow-hidden rounded-2xl md:min-w-[320px] xl:min-w-[340px]">
             <Image

@@ -13,7 +13,7 @@ const PriceFaq = () => {
           if you couldn't find what you're looking for.
         </p>
       </div>
-      <div className="container mx-auto max-w-[1109px] px-4 md:px-0">
+      <div className="container mx-auto max-w-[1080px] px-4 md:px-0 xl:max-w-[1109px]">
         <div className="mb-[18px] grid grid-cols-1 gap-[18px] md:grid-cols-2 lg:grid-cols-3">
           <div className="flex w-full flex-col gap-[18px] lg:max-w-[357px]">
             <div className="Pricingfaq rounded-[14px] border border-[#ceceea] p-[30px] text-[#24223E]">

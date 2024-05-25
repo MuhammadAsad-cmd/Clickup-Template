@@ -5,7 +5,7 @@ const EnterpriseHero2 = () => {
   return (
     <>
       <div className="CuGridWrapper relative">
-        <div className="container mx-auto max-w-[1160px] px-10">
+        <div className="container mx-auto max-w-[1080px] xl:max-w-[1160px]">
           <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="flex flex-col justify-between rounded-[14px] border border-[#ceceea] bg-white p-[30px]">
               <div>
@@ -20,7 +20,7 @@ const EnterpriseHero2 = () => {
               <p className="mt-5 text-base font-medium leading-5 text-[#24223E]">
                 <strong>Increased output by 2x</strong> in half the time.
               </p>
-              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] px-[18px] text-[13px] font-medium leading-5 md:max-w-[284px]">
+              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] text-[13px] font-medium leading-5 md:max-w-[284px]">
                 Read story
               </button>
             </div>
@@ -37,7 +37,7 @@ const EnterpriseHero2 = () => {
               <p className="mt-5 text-base font-medium leading-5 text-[#24223E]">
                 <strong>8x faster projects</strong> and task setup.
               </p>
-              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] px-[18px] text-[13px] font-medium leading-5 md:max-w-[284px]">
+              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] text-[13px] font-medium leading-5 md:max-w-[284px]">
                 Read story
               </button>
             </div>
@@ -54,14 +54,14 @@ const EnterpriseHero2 = () => {
               <p className="mt-5 text-base font-medium leading-5 text-[#24223E]">
                 <strong>Saved 6h a week </strong> with automated workflows.
               </p>
-              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] px-[18px] text-[13px] font-medium leading-5 md:max-w-[284px]">
+              <button className="mt-5 flex h-[42px] w-full items-center justify-center rounded-[14px] bg-[#F1F1F9] text-[13px] font-medium leading-5 md:max-w-[284px]">
                 Read story
               </button>
             </div>
           </div>
         </div>
 
-        <div className="container mx-auto max-w-[1160px] px-5 pt-[150px] text-[#24223E] md:px-10">
+        <div className="container mx-auto max-w-[1080px] pt-[150px] text-[#24223E] md:px-10 xl:max-w-[1160px]">
           <h2 className="mx-auto mb-10 max-w-[800px] text-center text-[34px] font-black leading-10 text-[#24223E] md:text-[41px] md:leading-[51px]">
             Built for unmatched enterprise scalability, security, and
             reliability.
@@ -75,7 +75,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/uptime.png"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -96,7 +96,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/speed-scalability.avif"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -143,7 +143,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/ai-powered-workflows.avif"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -164,7 +164,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/internationally-compliant.avif"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -187,7 +187,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/loved-by-teams.avif"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -208,7 +208,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/trusted-by-leadership.avif"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
@@ -229,7 +229,7 @@ const EnterpriseHero2 = () => {
                   unoptimized
                   src="/images/endorsed-by-it.png"
                   alt="img"
-                  className="rounded-[14px]"
+                  className="h-full w-full rounded-[14px]"
                 />
               </div>
               <div className="p-[30px]">
